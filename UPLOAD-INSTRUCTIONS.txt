@@ -1,0 +1,19 @@
+REPO: https://github.com/LLLoblolly/ai-master-class-site   (COMPLETE, CORRECTED SITE)
+
+WHY THIS ZIP IS DIFFERENT: the repo currently has every lesson dumped in one flat folder, so the lessons' links and
+styling (they expect assets/ and track-0, track-a ... folders) are broken and the site shows up unstyled.
+This zip puts everything back in the intended layout, plus the new Start Here / About / FAQ / Glossary / Handouts /
+Interest / Certificate pages. All 54 files; every internal link was checked, and the pages were tested in a browser.
+
+HOW TO UPLOAD (GitHub website):
+1. Unzip this file on your computer.
+2. Open the repo > Add file > Upload files.
+3. Drag the CONTENTS of the unzipped folder in (index.html, wrangler.toml, the 7 new pages, and the folders:
+   assets, track-0, track-a, track-b, track-c, track-d, track-e, track-f, track-g, track-h, track-i, capstone, toolbox).
+   GitHub keeps the folders when you drag them in.
+4. Commit changes. Cloudflare redeploys automatically.
+
+Old leftover files at the repo root (a1-what-is-ai.html, "index (3).html", style.css, nav.js, etc.) are no longer used. They are
+harmless and can be deleted later.
+
+To edit review dates or per-lesson reminders: assets/nav.js, top of file (MS_UPDATED, MS_NOTES).
